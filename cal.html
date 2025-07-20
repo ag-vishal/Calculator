@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="cal.css" />
+  </head>
+  <body>
+    <!-- Main container -->
+    <div class="con">
+      <!-- Calculator box -->
+      <div class="cal">
+        <!-- Display screen -->
+        <div class="disp">
+          <input type="text" readonly />
+        </div>
+
+        <!-- Panel with buttons -->
+        <div class="pnl">
+          <!-- Control buttons -->
+          <button onclick="fun('ac')">AC</button>
+          <button onclick="fun('c')">C</button>
+          <button onclick="fun('off')">OFF</button>
+          <button onclick="fun('/')">/</button>
+
+          <!-- Number and operator buttons -->
+          <button onclick="fun('1')">1</button>
+          <button onclick="fun('2')">2</button>
+          <button onclick="fun('3')">3</button>
+          <button onclick="fun('-')">-</button>
+
+          <button onclick="fun('4')">4</button>
+          <button onclick="fun('5')">5</button>
+          <button onclick="fun('6')">6</button>
+          <button onclick="fun('*')">*</button>
+
+          <button onclick="fun('7')">7</button>
+          <button onclick="fun('8')">8</button>
+          <button onclick="fun('9')">9</button>
+          <button onclick="fun('+')">+</button>
+
+          <button onclick="fun('0')">0</button>
+          <button onclick="fun('00')">00</button>
+          <button onclick="fun('.')">.</button>
+          <button onclick="fun('**')">^</button>
+
+          <button onclick="fun('(')">(</button>
+          <button onclick="fun(')')">)</button>
+          <button onclick="fun('%')">%</button>
+          <button onclick="fun('=')">=</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Link to external JavaScript -->
+    <script src="cal.js"></script>
+  </body>
+</html>
